@@ -1,0 +1,138 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.6rem;
+    background-color: #fefefe;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/**** Container ****/
+
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/**** Portfolio ****/
+
+.portfolio {
+    border-bottom: 6px solid #323746;
+    background-color: #2d303a;
+    padding-top: 67px;
+}
+
+.portfolio__header {
+    padding-bottom: 8px;
+    line-height: 30px;
+}
+
+.portfolio__name {
+    font-size: 3rem;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: #666d89;
+    letter-spacing: 1px;
+}
+.portfolio__description {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #767e9e;
+    letter-spacing: -0.35px;
+}
+
+.filter {
+    display: flex;
+}
+
+.filter__item {
+    color: #767e9e;
+    border: 1px solid rgb(102, 109, 137);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 10px;
+    line-height: 18px;
+    font-size: 1.2rem;
+    transition: 0.30s ease-out;
+    letter-spacing: -0.2px;
+}
+.filter__item:first-child{
+    letter-spacing: 1px;
+}
+.filter__item:last-child{
+    letter-spacing: 0.2px;
+}
+
+.filter__item--active, .filter__item:hover {
+    border-color: rgb(197, 197, 197);
+    color: #dedede;
+}
+
+
+
+
+
+
+/**** About-us ****/
+.social-list__item {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid #767e9e;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-right: 8.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    transition: 0.27s ease-out;
+}
+
+.social-list__item:hover {
+    background-color: #2d303a;
+
+}
+
+.social-list__item--facebook {
+    background-image: url("assets/images/ico-facebook.svg");
+    background-size: 8px;
+}
+
+.social-list__item--google-plus {
+    background-image: url("assets/images/ico-google-plus.svg");
+    background-size: 14px;
+}
+
+.social-list__item--twitter {
+    background-image: url("assets/images/ico-twitter.svg");
+    background-size: 14px;
+}
+
+.social-list__item--linkedin {
+    background-image: url("assets/images/ico-linkedin.svg");
+    background-size: 14px;
+}
